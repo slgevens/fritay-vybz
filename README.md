@@ -23,6 +23,10 @@ white ffffff
 ```
 
 ```bash
+# after clone
+git submodule update --init --recursive
+# or
+git submodule update --recursive
 # renderToMemory no public dir
 main  hugo server --disableFastRender --renderToMemory
 # renderToDisk public dir created
