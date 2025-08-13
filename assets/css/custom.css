@@ -1,0 +1,12 @@
+/* Make the hero banner full-width and height-adjustable */
+#hero-area {
+  width: 100vw;
+  margin-left: calc(50% - 50vw); /* breaks out of centered containers */
+}
+
+#hero-area img {
+  width: 100%;           /* take the full section width */
+  height: auto;          /* keep proportions */
+  display: block;        /* remove inline gap */
+  max-width: none;       /* remove theme's max-width limit */
+}

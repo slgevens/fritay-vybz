@@ -1,0 +1,32 @@
+############################## navigation ###############################
+
+[[main]]
+name = "Accueil"
+URL = "hero-area"
+weight = 1
+
+# [[main]]
+# name = "À propos"
+# URL = "about-us"
+# weight = 2
+
+[[main]]
+name = "Menu"
+URL = "blog"
+weight = 3
+
+[[main]]
+name = "Nos prix"
+URL = "price"
+weight = 4
+
+# [[main]]
+# name = "Actualités"
+# URL = "subscribe"
+# weight = 5
+
+[[main]]
+name = "Contactez-nous"
+URL = "contact-us"
+weight = 6
+

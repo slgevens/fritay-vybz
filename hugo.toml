@@ -1,0 +1,81 @@
+baseURL = "http://localhost:1313/"
+languageCode = "fr-FR"
+title = "FRITAY VYBZ"
+theme = "restaurant-hugo"
+summaryLength = "10"
+
+[pagination]
+pagerSize = 4
+
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use .png , .svg or .gif format
+
+############################ Markup ##############################
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+################################### Footer ############################
+[params.footer]
+enable = true
+contactInfoTitle = "CONTACT <span>NOUS</span>"
+blogTitle = "ACTUALITÉS <span>FRITAY VYBZ</span>"
+galleryTitle = "NOS <span>PLATS</span>"
+socialTitle = "SUIVEZ <span>NOUS</span>"
+
+############################ footer contact item
+[[params.footer.contactItem]]
+title = "Téléphone"
+icon = "fa fa-phone"
+content = "+509 3456-7890"
+link = "tel:+50934567890"
+
+[[params.footer.contactItem]]
+title = "Adresse"
+icon = "fa fa-map-marker"
+content = "Delmas 31, Port-au-Prince, Haïti"
+link = "https://maps.app.goo.gl/YourGoogleMapsLink"
+
+[[params.footer.contactItem]]
+title = "E-mail"
+icon = "fa fa-envelope"
+content = "contact@fritayvybz.ht"
+link = "mailto:contact@fritayvybz.ht"
+
+######################### footer gallery - Plats haïtiens
+[[params.footer.gallery]]
+image = "images/plats/griot.jpg"
+
+[[params.footer.gallery]]
+image = "images/plats/fritay.jpg"
+
+[[params.footer.gallery]]
+image = "images/plats/diri-ak-djon-djon.jpg"
+
+[[params.footer.gallery]]
+image = "images/plats/boukannen.jpg"
+
+[[params.footer.gallery]]
+image = "images/plats/akra.jpg"
+
+[[params.footer.gallery]]
+image = "images/plats/marinad.jpg"
+
+######################## Social Icon - Réseaux haïtiens
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "https://facebook.com/fritayvybz"
+
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "https://instagram.com/fritayvybz"
+
+[[params.footer.socialLink]]
+icon = "youtube"
+link = "https://youtube.com/@fritayvybz"
+
+[[params.footer.socialLink]]
+icon = "whatsapp"
+link = "https://wa.me/50934567890"
