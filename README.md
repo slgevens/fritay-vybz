@@ -22,3 +22,9 @@ red D21034
 white ffffff
 ```
 
+```bash
+# renderToMemory no public dir
+main  hugo server --disableFastRender --renderToMemory
+# renderToDisk public dir created
+main  hugo server --disableFastRender --renderToMemory
+```
