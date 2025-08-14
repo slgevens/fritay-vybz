@@ -20,10 +20,10 @@ unsafe = true
 ################################### Footer ############################
 [params.footer]
 enable = true
-contactInfoTitle = "CONTACT <span>NOUS</span>"
-blogTitle = "ACTUALITÉS <span>FRITAY VYBZ</span>"
+contactInfoTitle = "<span>CONTACT</span>"
+blogTitle = "<span>DISPONIBLE CETTE SEMAINE...</span>"
 galleryTitle = "NOS <span>PLATS</span>"
-socialTitle = "SUIVEZ <span>NOUS</span>"
+socialTitle = "<span>SUIVEZ NOUS</span>"
 
 ############################ footer contact item
 [[params.footer.contactItem]]
@@ -46,22 +46,16 @@ link = "mailto:contact@fritayvybz.ht"
 
 ######################### footer gallery - Plats haïtiens
 [[params.footer.gallery]]
-image = "images/plats/griot.jpg"
+image = "images/fritay-mix.png"
 
 [[params.footer.gallery]]
-image = "images/plats/fritay.jpg"
+image = "images/poulet-frit.png"
 
 [[params.footer.gallery]]
-image = "images/plats/diri-ak-djon-djon.jpg"
+image = "images/porc-frit.png"
 
 [[params.footer.gallery]]
-image = "images/plats/boukannen.jpg"
-
-[[params.footer.gallery]]
-image = "images/plats/akra.jpg"
-
-[[params.footer.gallery]]
-image = "images/plats/marinad.jpg"
+image = "images/pastels.png"
 
 ######################## Social Icon - Réseaux haïtiens
 [[params.footer.socialLink]]

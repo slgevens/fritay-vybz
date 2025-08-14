@@ -1,9 +1,9 @@
 ############################## navigation ###############################
 
-# [[main]]
-# name = "ACCUEIL"
-# URL = "about-us"
-# weight = 1
+[[main]]
+name = "ACCUEIL"
+URL = "about-us"
+weight = 1
 
 # [[main]]
 # name = "À PROPOS"

@@ -1,15 +1,14 @@
 #################### default parameters ################################
 logo = "images/fritay_vybz_logo_025x.png"
 # meta data
-author = "Themefisher"
+author = "Keyshaa"
 description = "This is meta description"
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # mainSections
-main_sections = ["post"]
+main_sections = ["menu"]
 # copyright
-copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
-
+copyright = "Copyright &copy; 2025 [Evens SOLIGNAC](https://www.evens.link/). Design [Themefisher](https://themefisher.com) & [Gethugothemes](https://gethugothemes.com) (2021)"
 
 
 ############################# Plugins ##############################
@@ -44,4 +43,3 @@ URL = "js/wow.min.js"
 URL = "js/venobox.min.js"
 [[plugins.js]]
 URL = "js/main.js"
-  

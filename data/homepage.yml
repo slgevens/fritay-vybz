@@ -1,8 +1,7 @@
 ################## Hero area ##################
 hero_area:
   enable : true
-  bg_image : "images/fritay_vybz_banner_v2.png"
-  # bg_image : "images/fritay_vybz_banner.png"
+  bg_image : "images/small_banner_v3.png"
   overlay : true
 
 ################### Gallery ###################
@@ -23,47 +22,42 @@ gallery:
 about:
   enable : true
   image : "images/keyshaa.png"
-  title : "<span>Fritay Vybz</span>"
-  description : "Savourez l’essence même de la street food haïtienne, entre griots croustillants, pikliz relevé et fritures dorées à souhait. </br> </br> Chez Fritay Vybz, chaque bouchée est une explosion de saveurs tropicales servie avec rapidité, sourire et bonne vibe."
+  title : "<span>FRITAY VYBZ</span>"
+  description : "SAVOUREZ L’ESSENCE MÊME DE LA STREET FOOD HAÏTIENNE, ENTRE GRIOTS CROUSTILLANTS, PIKLIZ RELEVÉ ET FRITURES DORÉES À SOUHAIT. </BR> </BR> CHEZ FRITAY VYBZ, CHAQUE BOUCHÉE EST UNE EXPLOSION DE SAVEURS TROPICALES SERVIE AVEC RAPIDITÉ, SOURIRE ET BONNE VIBE."
   
 ################# Blog ######################
 blog:
   enable : true
-  title : "<span>Menu</span>"
-  bg_image : "images/blog/capped_banner.png"
+  title : "<span>MENU</span>"
+  bg_image : "images/neutral_banner.png"
   overlay : true
-
 
 ################# food Menu ################
 pricing:
   enable : true
-  title : "Our Easy <span>PRICE</span>"
-  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-  subtitle : "FEATURED ON THE WEEK"
+  title : "<span>PRIX</span>"
+  subtitle : "DISPONIBLE CETTE SEMAINE"
+  description: "Men la, bon jan manje pou plen vant ou ak kè kontan ! Chwazi plat ou, jwi gou Ayiti nan chak mòde."
   pricing_item:
-  - title: "Pancakes n' Such Titas"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 125.00"
+  - title: "FRITAY MIX"
+    description: "Griot (porc frit), poulet frit, bananes plantain frites, pikliz, sauce piment."
+    price : "€ 11.00 (petite portion) / € 20.00 (grande portion)"
 
-  - title: "Caesar Salad"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 100.00"
+  - title: "PORC FRIT"
+    description: "Morceaux de porc marinés au citron et aux épices, frits, pikliz, sauce piment."
+    price : "€ 10.00 (petite portion) / € 18.00 (grande portion)"
 
-  - title: "Steak with a Garlic and Parsley Risotto"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 20.00"
+  - title: "POULET FRIT"
+    description: "Poulet mariné aux épices haïtiennes, frit, pikliz, sauce piment."
+    price : "€ 9.00 (petite portion) / € 17.00 (grande portion)"
 
-  - title: "Meat of Skewers"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 45.00"
-
-  # - title: "Pancakes n' Such"
-  #   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-  #   price : "$ 25.00"
+  - title: "PASTELS"
+    description: "Chaussons frits à la viande ou aux légumes, épices, sauce piment."
+    price : "€ 8.00 (petite portion) / € 15.00 (grande portion)"
 
 ################### Subscription ################
 subscription:
-  enable : true
+  enable : false
   bg_image : "images/subscribe-bg.jpg"
   title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
@@ -75,6 +69,6 @@ subscription:
 ################ Contact #######################
 contact:
   enable : true
-  title: "Let's <span> Contact Us </span>"
-  subtitle: "SIGN UP FOR EMAIL ALERTS"
-  form_action : "#" #contact form works with formspree.io
+  title: "<span> CONTACT </span>"
+  subtitle: "Ecrivez-nous pour toute question ou commande"
+  form_action : "#"
